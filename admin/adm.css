@@ -1,0 +1,279 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:white;
+}
+.container{
+  display: flex;
+}
+nav{
+  position: relative;
+  flex: 0 0 280px;
+  height: 100vh;
+  background:  #40175E;
+  width: 280px;
+  overflow-y: auto;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+a{
+  position: relative;
+  color: rgb(235, 235, 235);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+a:hover{
+  background:#6e22a3;;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+.logo img {
+width: 65px;
+margin: 30px;
+}
+
+img {
+  width: 200px;
+  margin : 20px;
+}
+.logo p {
+  margin: 0;
+}
+
+.logo {
+  color: rgb(235, 235, 235);
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+/* Main Section */
+.main{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+.main-skills{
+  display: flex;
+  margin-top: 20px;
+}
+.main-skills .card{
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.main-skills .card h3{
+  margin: 10px;
+  text-transform: capitalize;
+}
+.main-skills .card button{
+  background: #6e22a3;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.main-skills .card button:hover{
+  background: #40175E;
+}
+.main-skills .card i{
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* Courses */
+.main-course{
+  margin-top:20px ;
+  text-transform: capitalize;
+}
+.course-box{
+  width: 100%;
+  height: 300px;
+  padding: 10px 10px 30px 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.course-box ul{
+  list-style: none;
+  display: flex;
+}
+.course-box ul li{
+  margin: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.course-box ul .active{
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.course-box .course{
+  display: flex;
+}
+.box{
+  width: 33%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(235, 233, 233);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.box p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+.box button{
+  background: #000;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.box button:hover{
+  background: rgba(0, 0, 0, 0.842);
+}
+.box i{
+  font-size: 7rem;
+  float: right;
+  margin: -20px 20px 20px 0;
+}
+
+/* FORM */
+table,
+form {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+table,
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="url"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+table,
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"] {
+  background: #6e22a3;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #40175e;
+}
+
+/* Garis Pinggir Form */
+table,
+form {
+  border: 1px solid #ccc;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+  form {
+    margin: 20px;
+  }
+}
+
+/* TABEL */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Tambahkan warna latar belakang dan warna teks untuk header tabel */
+table th {
+  background-color: #6e22a3;
+  color: #fff;
+}
+
+/* Tambahkan gaya untuk baris ganjil */
+table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Tambahkan gaya untuk baris saat dihover */
+table tr:hover {
+  background-color: #f5f5f5;
+}
+
+p{
+  text-align: left;
+}

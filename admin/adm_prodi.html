@@ -1,0 +1,86 @@
+<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Program Pendidikan</title>
+    <link rel="stylesheet" href="adm.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- Add this line to link your JavaScript file -->
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <div class="logo">
+            <img src="images/logo del (1).jpeg" alt="">
+            <p>INSTITUT<br>TEKNOLOGI<br>DEL</p>
+          </div>
+          <li><a href="adm_dashboard.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Home</span>
+          </a></li>
+          <li><a href="adm_prodi.html">
+            <i class="fas fa-book"></i>
+            <span class="nav-item">Pendidikan</span>
+          </a></li>
+          <li><a href="adm_pengumuman.html">
+            <i class="fas fa-file-alt"></i>
+            <span class="nav-item">Pengumuman </span>
+          </a></li>
+          <li><a href="adm_fasilitas.html">
+            <i class="fas fa-chart-bar"></i>
+            <span class="nav-item">Fasilitas</span>
+          </a></li>
+          <li><a href="adm_lembaga.html">
+            <i class="fas fa-sitemap"></i>
+            <span class="nav-item">Lembaga</span>
+          </a></li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="main-top">
+          <h1>Program Pendidikan</h1>
+          <i class="fas fa-book"></i>
+        </div><br>
+
+      <form action="/submit_form" method="post">
+        <label for="judul">Nama Program Studi :</label>
+        <input type="text" id="judul" name="judul" required><br>
+
+        <label for="gambar">Gambar (URL) :</label>
+        <input type="file" id="gambar" name="gambar" required><br><br>
+
+        <label for="teks">Teks :</label>
+        <textarea id="teks" name="teks" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <table class="table1">
+        <tr>
+          <th>No</th>
+          <th>Fasilitas</th>
+          <th>Gambar</th>
+          <th>Teks</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>D3 Teknologi Informasi</td>
+          <td><img src="images/ti.jpeg" alt=""></td>
+          <td><p>Program Studi Teknologi Informasi Diploma Tiga  adalah salah satu dari 3 (tiga) program studi yang dikelola oleh Institut Teknologi Del (IT Del) yang berdiri pada tahun 2001 sesuai SK No. 222/D/O/2001 tertanggal 28 September 2001 dengan nama Program Studi Teknologi Informasi. Program studi ini berlokasi di Jl. Sisingamangaraja, Desa Sitoluama, Kecamatan Laguboti, Toba Samosir, Propinsi Sumatera Utara berjarak kurang lebih 200 km (lima jam perjalanan mobil) dari Medan sebagai Ibukota Propinsi Sumatera Utara. Desa Sitoluama adalah suatu desa kecil yang berada di tepi Danau Toba dan dilalui oleh jalan raya lintas propinsi dan berjarak sekitar 10 KM dari Balige sebagai ibukota Kabupaten Tobasa.</p></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>D3 Teknologi Komputer</td>
+          <td><img src="images/vokasi.jpeg" alt=""></td>
+          <td><p>Program Studi Teknik Komputer adalah salah satu program studi yang diselenggarakan Institut Teknologi Del yang terletak di daerah pedesaan Tobasa, yang membuka peluang bagi siswa berprestasi untuk mengenyam pendidikan dengan mutu yang tidak kalah dengan pendidikan bermutu bagus yang diselenggarakan di kota besar.</p></td>
+        </tr>
+        <tr>
+      </table>
+      </section>
+    </div>
+  </body>
+  </html></span>

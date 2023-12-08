@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pengumuman</title>
+    <link rel="stylesheet" href="adm.css"/>
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- Add this line to link your JavaScript file -->
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <div class="logo">
+            <img src="images/logo del (1).jpeg" alt="">
+            <p>INSTITUT<br>TEKNOLOGI<br>DEL</p>
+          </div>
+          <li><a href="adm_dashboard.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Home</span>
+          </a></li>
+          <li><a href="adm_prodi.html">
+            <i class="fas fa-book"></i>
+            <span class="nav-item">Pendidikan</span>
+          </a></li>
+          <li><a href="adm_pengumuman.html">
+            <i class="fas fa-file-alt"></i>
+            <span class="nav-item">Pengumuman </span>
+          </a></li>
+          <li><a href="adm_fasilitas.html">
+            <i class="fas fa-chart-bar"></i>
+            <span class="nav-item">Fasilitas</span>
+          </a></li>
+          <li><a href="adm_lembaga.html">
+            <i class="fas fa-sitemap"></i>
+            <span class="nav-item">Lembaga</span>
+          </a></li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="main-top">
+          <h1>Pengumuman</h1>
+          <i class="fas fa-file-alt"></i>
+        </div><br>
+
+        <form action="/submit_form" method="post">
+          <label for="judul">Judul :</label>
+          <input type="text" id="judul" name="judul" required><br>
+
+          <label for="hari_tanggal">Hari Tanggal :</label>
+          <input type="date" id="hari_tanggal" name="hari_tanggal" required> <br>
+
+          <label for="gambar">Gambar (URL) :</label>
+          <input type="file" id="gambar" name="gambar" required><br><br>
+
+          <label for="teks">Teks :</label>
+          <textarea id="teks" name="teks" rows="4" required></textarea><br>
+
+          <input type="submit" value="Submit">
+        </form>
+
+        <table class="table1">
+          <tr>
+            <th>No</th>
+            <th>Judul</th>
+            <th>Tanggal</th>
+            <th>Gambar</th>
+            <th>Teks</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Wisuda 398 Lulusan Institut Teknologi Del</td>
+            <td>25th September 2023</td>
+            <td><img src="images/p1.jpeg" alt=""></td>
+            <td>
+              <p>Pada Hari Sabtu 23 September 2023, Institut Teknologi Del melaksanakan Wisuda untuk 398 Mahasiswa Sarjana dan Diploma. Turut hadir Bapak Dr. Honoris Causa Ir. Airlangga Hartarto, MBA, MMT (Menteri Koordinator Bidang Perekonomian Republik Indonesia), Bapak Rionald Silaban (Direktorat Jendral Kekayaan Negara),  Bapak Jend. TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan Del), Ibu Intan Simanjuntak (Ketua Pengurus Yayasan Del), dan tamu undangan lainnya. Kegiatan Wisuda ini dilaksanakan di Gedung Serba Guna Yayasan Del dengan tema “Fostering Collaboration and Innovation towards Research Excellence”.
+              <br><br>Pada Wisuda tahun ini terdapat sebanyak 398 wisudawan dan wisudawati yang terdiri dari 51 mahasiswa dari jurusan D3 Teknologi Informasi, 47 mahasiswa dari jurusan D3 Teknologi Komputer, 64 mahasiswa dari jurusan D4 Teknologi Rekayasa Perangkat Lunak, 66 mahasiswa dari jurusan S1 Informatika, 71 mahasiswa dari jurusan S1 Sistem Informasi, 35 mahasiswa dari jurusan S1 Teknik Elektro, 44 mahasiswa dari jurusan S1 Manajemen Rekayasa, dan 20 mahasiswa dari jurusan S1 Teknik Bioproses.
+              <br><br>Sebagai Pembina Yayasan Del yang sangat mendukung dunia Pendidikan, Bapak Luhut Pandjaitan selalu berpesan kepada mahasiswa IT Del agar tidak hanya soal pintar tetapi juga dengan hati. “Selamat bertugas, permulaan dari suatu perjalanan yang panjang buat kalian yang telah menyelesaikan studinya di IT Del.” pesan Beliau.
+              <br><br>Pada kegiatan ini juga berlangsung penandatanganan prasasti Laboratorium Keamanan Siber oleh Bapak Menteri Koordinator Bidang Perekonomian Dr. (H.C.) Ir. Airlangga Hartarto, M.B.A., M.M.T dan Bapak Jend. TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan Del). Besar harapannya dengan keberadaan Laboratorium ini dapat mendukung IT Del dalam menciptakan talent-talent baru dalam bidang keamanan siber di Indonesia.
+              </p>
+            </tr>
+          <tr>
+            <td>2</td>
+            <td>Pengukuhan 483 Mahasiswa IT Del Angkatan XXIII dan Dies Natalis ke XXII</td>
+            <td>25th September 2023</td>
+            <td><img src="images/p-2.jpg" alt=""></td>
+            <td>
+              <p>
+                Sitoluama, 22 September 2023 Institut Teknologi Del menyelenggarakan Acara Pengukuhan Mahasiswa Baru Angkatan XXIII dan Dies Natalis ke XXII. Kegiatan ini dihadiri oleh Ketua Pembina Yayasan Del, Bapak Luhut Binsar Pandjaitan dan Ibu Devi Pandjaitan, Ketua Pengurus Yayasan Del, Ibu Intan Simanjuntak, Rektor IT Del Bapak Dr. Arnaldo Marulitua Sinaga, S.T., M.InfoTech, Senat akademik Prof. Roberd Saragih, Ketua supervisor Habibie Center Ilham Akbar Habibie, Dirjen Kekayaan Negara Rionald Silaban, CEO PT. Privy Marshall Pribadi, Wakil Ketua CNGR Internasional Fu Peiwen, bersama orang tua mahasiswa dan para undangan lainnya. Kegiatan ini dilaksanakan di Gedung Serba Guna Yayasan Del.<br><br>
+                Sebagai pembuka, Wakil Rektor Bidang Akademik dan Kemahasiswaan, Dr. Johannes Harungguan Sianipar, S.T., M.T mewakili panitia penerimaan mahasiswa baru melaporkan bahwa jumlah mahasiswa baru yang dikukuhkan sebanyak 483 mahasiswa, yang terdiri dari DIII Teknologi Infomasi 60 mahasiswa, DIII Teknologi Komputer 51 mahasiswa, Sarjana Terapan Teknologi Rekayasa Perangkat Lunak 98 mahasiswa, S1 Informatika 55 mahasiswa, S1 Sistem Informasi 51 mahasiswa, S1 Teknik Elektro 37 mahasiswa, S1 Manajemen Rekayasa 62 mahasiswa, dan S1 Teknik Bioproses 34 mahasiswa.<br><br>
+                Rektor IT Del, Bapak Arnaldo Marulitua Sinaga pada paparannya menyampaikan rencana induk pengembangan institusi yang saat ini berada pada fase Excellent Learning dan Research Institute yang sejalan dengan tema hari ini yaitu “Fostering Collaboration and Innovation Towards Research Excellence”. Beliau juga menyampaikan bahwa akan adanya kampus dua IT Del di area TSTH2 (Taman Sains Teknologi Herbal dan Hortikultura) yang berada di Pollung, Humbang Hasundutan. Dengan hadirnya kampus dua IT Del di area TSTH2 diharapkan akan semakin mendukung pembelajaran – pembelajaran berbasis riset dan penelitian – penelitian unggul yang hendak disampingkan.<br><br>
+                Dilanjutkan dengan kata Sambutan dari Ketua Dewan pembina The Habibie Center Dr.-Ing. H. Ilham Akbar Habibie, Dipl.Ing., M.B.A. Beliau menyampaikan mengenai pentingnya Tri Dharma Perguruan Tinggi yaitu pendidikan dan pengajaran, penelitian dan pengembangan, pengabdian kepada masyarakat. Beliau menekankan pentingnya Sumber Daya Manusia yang unggul dengan penguasaan dan penerapan IPTEK. Beliau berkata bahwa suatu negara tidak bisa maju, berdaulat dan menjadi berkedaulatan jika tidak bisa menguasai IPTEK.<br><br>
+                Sesuai dengan tema Pengukuhan Mahasiswa Baru “Fostering Collaboration and Innovation Towards Research Excellence” yang berarti terus berkolaborasi dan berinovasi hingga menjadi institut penelitian terbaik, sehingga pada kesempatan ini dilakukan Penandatanganan MoU IT Del dengan PT. Privy Identitas Digital, PT Mayora Indah Tbk., Yayasan Satriabudi Dharma Setia, CNGR Advanced Material Co. Ltd disaksikan oleh Bapak Luhut Binsar Pandjaitan dan Ibu Intan Simanjuntak.<br><br>
+                Pada kesempatan ini Bapak Rionald Silaban selaku Direktoran Jenderal Kekayaan Negara Dalam sambutannya, Beliau mengatakan bahwa Indonesia tetap disiplin dalam menjalankan perkonomian, disiplin dan tata kelola adalah kunci sebagai pemenang sebagaimana kita hidup sehari – hari.()<br><br>
+                Diakhir kegiatan, Bapak Luhut Pandjaitan  memaparkan bahwa dalam satu dekade terakhir, ekonomi Indonesia mengalami transformasi, pasca pandemi ekonomi Indonesia tumbuh kuat, didukung salah satunya oleh hilirisasi sumber daya alam. Beliau juga menyampaikan bahwa tantangan kedepan yang dihadapi oleh dunia termasuk perubahan iklim yang memburuk, ketidaksetaraan ekonomi yang semakin tajam, dan ketidakstabilan geopolitik. Solusi-solusi inovatif dan kerjasama global akan menjadi kunci dalam mengatasi tantangan ini. Pengembangan SDM yang berkualitas, terampil, dan berpengetahuan juga sangat penting untuk akselerasi ekonomi Indonesia. Beliau berharap kedepannya Institut Teknologi Del dapat menjadi salah satu kontributor SDM berkualitas bagi Indonesia. <br><br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Job Fair Institut Teknologi Del di Pekan Raya Sumatera Utara (PRSU) 2023</td>
+            <td>4th July 2023</td>
+            <td><img src="images/p-3.jpeg" alt=""></td>
+            <td><p>
+              Horas Warga Sumatera Utara!!! <br><br>
+
+              Dinas Ketenagakerjaan Provinsi Sumatera Utara kini bekerja sama dengan beberapa perusahaan dan institut yang menyediakan lowongan pekerjaan. Salah satunya adalah Institut Teknologi Del. Melalui acara JOB FAIR 2023 ini akan menjadi kesempatan baik untuk Anda bertemu dengan kami dari Institut Teknologi Del yang menyediakan berbagai peluang kerja. <br><br>
+
+              Dibuka secara GRATISS pada: <br>
+              Hari/Tanggal : Jum’at-Sabtu/07-08 Juli 2023 <br>
+              Pukul : 08.00 – 16.00 WIB <br>
+              Tempat : Pekan Raya Sumatera Utara (Jl. Gatot Subroto Km. 5 Sei Sikambing C, Medan) <br>
+
+              Pastikan kamu mendaftarkan diri hanya melalui website berikut: <br>
+              https://forms.gle/1dVWwd7vv8adYEhW9<br><br>
+
+              AYO PERSIAPKAN DIRIMU MENJADI BAGIAN DARI INSTITUT TEKNOLOGI DEL. <br>
+            </p></td>
+          </tr>
+        </table>
+      </section>
+    </div>
+  </body>
+  </html></span>

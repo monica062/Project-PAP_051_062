@@ -1,0 +1,101 @@
+<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Program Studi</title>
+    <link rel="stylesheet" href="adm.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- Add this line to link your JavaScript file -->
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <div class="logo">
+            <img src="images/logo del (1).jpeg" alt="">
+            <p>INSTITUT<br>TEKNOLOGI<br>DEL</p>
+          </div>
+          <li><a href="adm_dashboard.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Home</span>
+          </a></li>
+          <li><a href="adm_prodi.html">
+            <i class="fas fa-book"></i>
+            <span class="nav-item">Pendidikan</span>
+          </a></li>
+          <li><a href="adm_pengumuman.html">
+            <i class="fas fa-file-alt"></i>
+            <span class="nav-item">Pengumuman </span>
+          </a></li>
+          <li><a href="adm_fasilitas.html">
+            <i class="fas fa-chart-bar"></i>
+            <span class="nav-item">Fasilitas</span>
+          </a></li>
+          <li><a href="adm_lembaga.html">
+            <i class="fas fa-sitemap"></i>
+            <span class="nav-item">Lembaga</span>
+          </a></li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="main-top">
+          <h1>Lembaga</h1>
+          <i class="fas fa-book"></i>
+        </div><br>
+
+      <form action="/submit_form" method="post">
+        <label for="judul">Nama Lembaga :</label>
+        <input type="text" id="judul" name="judul" required><br>
+
+        <label for="gambar">Gambar (URL) :</label>
+        <input type="file" id="gambar" name="gambar" required><br><br>
+
+        <label for="teks">Teks :</label>
+        <textarea id="teks" name="teks" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <table class="table1">
+        <tr>
+          <th>No</th>
+          <th>Lembaga</th>
+          <th>Gambar</th>
+          <th>Teks</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>UPT PP-ESTEM</td>
+          <td><img src="images/eastem.jpeg" alt=""></td>
+          <td><p>Sebagai pusat pengembangan pembelajaran yang unggul dan inovasi secara khusus namun tidak terbatas pada bidang Sains, Teknologi, Enginering, dan Matematika (STEM) yang berkualitas, efisien, efektif, produktif, dan akuntabel.</p></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Sistem Penjaminan Mutu (SPM)</td>
+          <td><img src="images/lppm.jpeg" alt=""></td>
+          <td><p>Sesuai arahan dari Direktorat Jenderal Pendidikan Tinggi tentang penjaminan mutu perguruan tinggi yang terdiri atas penjaminan mutu internal dan penjaminan mutu eksternal, maka Institut Teknologi Del sebagai institusi pendidikan yang hendak menghasilkan sumber daya manusia dengan kompetensi yang baik harus mewujudkan arahan tersebut. Untuk itu dibentuklah SPM IT Del, pada tanggal 14 November 2008.</p></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Pusat Modal Manusia (PMM)</td>
+          <td><img src="images/del_lembaga.jpeg" alt=""></td>
+          <td><p>Pusat Modal Manusia berada di bawah dan bertanggung jawab kepada Wakil Rektor Bidang Perencanaan, Keuangan, dan Sumber Daya.
+                 Tugas pokok Pusat Modal Manusia adalah mengelola modal manusia dalam rangka mewujudkan visi, misi, dan tujuan institusi.
+                 Wewenang Pusat Modal Manusia meliputi:Perencanaan, Penempatan, dan Pengembangan Pegawai.
+                </p>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Koperasi</td>
+          <td><img src="images/del_lembaga.jpeg" alt=""></td>
+          <td><p>KSU IT Del merupakan Koperasi Serba Usaha (KSU) IT Del dimulai kembali pada tanggal 8 Agustus 2008 sampai dengan saat ini, tahun 2014. KSU IT Del didirikan berdasarkan badan hukum dengan No Badan Hukum No : 49.A / BH / KUKM-TS / 2004, per tanggal 7 April 2004. Yang menjadi anggota KSU IT Del adalah dosen, staff, karyawan dan mahasiswa.</p></td>
+        </tr>
+      </table>
+      </section>
+    </div>
+  </body>
+  </html></span>

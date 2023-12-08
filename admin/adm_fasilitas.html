@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fasilitas</title>
+    <link rel="stylesheet" href="adm.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <!-- Add this line to link your JavaScript file -->
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <div class="logo">
+            <img src="images/logo del (1).jpeg" alt="">
+            <p>INSTITUT<br>TEKNOLOGI<br>DEL</p>
+          </div>
+          <li><a href="adm_dashboard.html">
+            <i class="fas fa-home"></i>
+            <span class="nav-item">Home</span>
+          </a></li>
+          <li><a href="adm_prodi.html">
+            <i class="fas fa-book"></i>
+            <span class="nav-item">Pendidikan</span>
+          </a></li>
+          <li><a href="adm_pengumuman.html">
+            <i class="fas fa-file-alt"></i>
+            <span class="nav-item">Pengumuman </span>
+          </a></li>
+          <li><a href="adm_fasilitas.html">
+            <i class="fas fa-chart-bar"></i>
+            <span class="nav-item">Fasilitas</span>
+          </a></li>
+          <li><a href="adm_lembaga.html">
+            <i class="fas fa-sitemap"></i>
+            <span class="nav-item">Lembaga</span>
+          </a></li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="main-top">
+          <h1>Fasilitas</h1>
+          <i class="fas fa-chart-bar"></i>
+        </div><br>
+
+      <form action="/submit_form" method="post">
+        <label for="judul">Nama Program Studi :</label>
+        <input type="text" id="judul" name="judul" required><br>
+
+        <label for="gambar">Gambar (URL) :</label>
+        <input type="file" id="gambar" name="gambar" required><br><br>
+
+        <label for="teks">Teks :</label>
+        <textarea id="teks" name="teks" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <table class="table1">
+        <tr>
+          <th>No</th>
+          <th>Fasilitas</th>
+          <th>Gambar</th>
+          <th>Teks</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Laboratorium Komputer dan Bahasa</td>
+          <td><img src="images/lab.jpg" alt=""></td>
+          <td><p>Definisi Laboratorium Komputasi adalah ruangan yang dilabeli sebagai laboratorium komputasi yang berisi sekumpulan perangkat yang terdiri atas Komputer Desktop, Laptop, AC, projector, printer, dan perangkat lain sesuai dengan kebutuhan dari laboratorium yang dimaksud </p></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Akomodasi Dosen</td>
+          <td><img src="images/rumahdosen.jpg" alt=""></td>
+          <td><p>Institut Teknologi Del (IT Del) menyediakan fasilitas perumahan untuk dosen dan staf penunjang di lingkungan kampus. Dengan tinggal di lingkungan kampus, seluruh dosen dan staf bisa memberikan kontribusi terbaik untuk kelancaran dan kualitas proses akademis dan non-akademis di IT Del. Dengan lingkungan dan fasilitas yang ergonomis, diharapkan juga dosen bisa mengembangkan diri secara lebih maksimal.</p></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Kantin</td>
+          <td><img src="images/kantin.jpg" alt=""></td>
+          <td><p>Kantin Politeknik Informatika Del menyediakan menu makanan yang bergizi dan sehat untuk semua mahasiswa/i. Menu yang disediakan selalu memenuhi standard gizi, sehingga mahasiswa bisa melaksanakan aktifitas perkuliahan dengan sehat dan prima. Setiap mahasiswa diwajibkan untuk makan di kantin tiga kali setiap harinya.</p></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Perpustakaan</td>
+          <td><img src="images/perpustakaan.jpg" alt=""></td>
+          <td><p>Perpustakaan IT Del memiliki visi yaitu “Sebagai pusat informasi terkemuka yang menyediakan layanan informasi cetak maupun cetak dan juga penyedia layanan informasi berteknologi tinggi. Untuk mencapai visi dimaksud, misi yang diemban oleh Perpustakaan</p></td>
+        </tr>
+      </table>
+      </section>
+    </div>
+  </body>
+  </html>
